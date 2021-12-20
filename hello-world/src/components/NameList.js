@@ -22,6 +22,7 @@ function NameList() {
             skill:'.net'
         }
     ]
+    const names =['Bruce','Diana']
     const personList = persons.map(person =><Person key={person.id} person={person} />)
         return (
         <div>{personList }</div>
