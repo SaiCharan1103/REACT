@@ -1,12 +1,12 @@
 import React from 'react'
 import App from '../App'
-
-const Greet =(props) =>{
-    console.log(props)
+//For Structruing
+const Greet =({name,animename}) =>{
+  // const Greet = props =>{
+  //   const {name,heroname}= props
 return (
     <div>
-      <h1>Hello {props.name} a.k.a {props.animename}</h1>
-      {props.children}
+      <h1>Hello {name} a.k.a {animename}</h1>
     </div>
 )
 }
