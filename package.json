@@ -1,6 +1,10 @@
 {
   "dependencies": {
     "@material-ui/core": "^4.12.3",
-    "axios": "^0.24.0"
+    "@material-ui/icons": "^4.11.2",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.5",
+    "axios": "^0.24.0",
+    "react-router-dom": "^6.2.1"
   }
 }
