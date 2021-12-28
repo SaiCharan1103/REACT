@@ -1,18 +1,13 @@
 import React from 'react';
 import './App.css';
-import Appbar from './components/Appbar';
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import UserComponent from './components/UserComponent';
 
 function App() {
   return (
-    <>
-    <Router>
-      <Appbar />
-      <Switch>
-        <Route path='/' excat />
-      </Switch>
-    </Router>
-    </>
+    <div className='App'>
+    <UserComponent />
+
+    </div>
   );
 }
 
