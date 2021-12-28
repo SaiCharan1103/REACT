@@ -5,12 +5,12 @@ class UserComponent extends React.Component{
     constructor(props) {
         super(props)
         this.state = {
-             users:[]
+             orders:[]
         }
     }
     componentDidMount(){
-        UserService.getUsers().then((response) => {
-            this.setState({ users: response.data})
+        UserService.getOrders().then((response) => {
+            this.setState({ orders: response.data})
         });
     }
 
@@ -22,23 +22,23 @@ class UserComponent extends React.Component{
                     <thead>
                         <tr>
 
-                            <td> User Id</td>
-                            <td> User Name</td>
-                            <td> User Phone</td>
-                            <td> User Email </td>
+                            <td> Order Id</td>
+                            <td> Car Name</td>
+                            <td> Car Model</td>
+                            <td> washer Name </td>
                         </tr>
 
                     </thead>
                     <tbody>
                         {
-                            this.state.users.map(
+                            this.state.orders.map(
                                 user => 
-                                <tr key = {user.id}>
-                                     <td> {user.id}</td>   
-                                     <td> {user.Name}</td>   
-                                     <td> {user.Phone}</td>   
-                                     <td> {user.Email}</td>
-                                     <td> {user.Address}</td>    
+                                <tr key = {order.id}>
+                                     <td> {order.id}</td>   
+                                     <td> {order.carName}</td>   
+                                     <td> {order.carModel}</td>   
+                                     <td> {order.wName}</td>
+   
                                 </tr>
                             )
                         }

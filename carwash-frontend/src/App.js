@@ -5,7 +5,7 @@ import UserComponent from './components/UserComponent';
 function App() {
   return (
     <div className='App'>
-    <UserComponent />
+    <OrderComponent />
 
     </div>
   );

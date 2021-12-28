@@ -1,10 +1,10 @@
 import axios from "axios";
 
-const USERS_REST_API_URL ='http://localhost:8084/user';
+const ORDERS_REST_API_URL ='http://localhost:8082/order/allorders';
 
-class UserService {
-    getUsers(){
-        return axios.get(USERS_REST_API_URL);
+class OrderService {
+    getOrders(){
+        return axios.get(ORDERS_REST_API_URL);
     }
 }
-export default new UserService();
+export default new OrderService();
