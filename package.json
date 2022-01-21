@@ -6,6 +6,25 @@
     "@mui/material": "^5.2.5",
     "axios": "^0.24.0",
     "bootstrap": "^5.1.3",
-    "react-router-dom": "^6.2.1"
-  }
+    "react-router-dom": "^6.2.1",
+    "redux": "^4.1.2"
+  },
+  "name": "react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaiCharan1103/REACT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaiCharan1103/REACT/issues"
+  },
+  "homepage": "https://github.com/SaiCharan1103/REACT#readme",
+  "description": ""
 }
